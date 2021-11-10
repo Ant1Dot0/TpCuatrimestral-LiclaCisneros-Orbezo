@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Default.aspx" />
     <Content Include="Detalle.aspx" />
+    <Content Include="estilos\detalle.css" />
     <Content Include="estilos\estilos.css" />
     <Content Include="funciones\funciones.js" />
     <Content Include="Web.config" />

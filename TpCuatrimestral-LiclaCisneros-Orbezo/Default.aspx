@@ -3,10 +3,10 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container">        
-        <div class="row" style="display: flex; flex-direction: row; justify-content:space-between;">            
+        <div class="row" style="display: flex; flex-direction: row; justify-content:space-between;flex-wrap:wrap;">            
            <%foreach (var arti in ListaArticulos)
              {%>
-                <div class="card" style="width: 18rem;height:30rem;margin:20px;border:1px solid black;">
+                <div class="card" style="width: 18rem;height:30rem;margin-bottom:20px;border:1px solid black;">
                   <img src="<%=arti.Url%>" class="card-img-top" alt="No Disponible" width="100%" height="55%" style="background-color:lightgray;">
                   <div class="card-body" style="border-top:1px solid black;display:flex;flex-direction:column;align-items:center;">
                       <h5 class="card-title"><%=arti.nombre %></h5>
