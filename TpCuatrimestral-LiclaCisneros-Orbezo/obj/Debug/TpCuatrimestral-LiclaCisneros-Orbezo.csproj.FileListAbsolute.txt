@@ -112,7 +112,6 @@ C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\TpCuatrimestral\TpCuatrimestral-LiclaCis
 C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\TpCuatrimestral\TpCuatrimestral-LiclaCisneros-Orbezo\TpCuatrimestral-LiclaCisneros-Orbezo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\TpCuatrimestral\TpCuatrimestral-LiclaCisneros-Orbezo\TpCuatrimestral-LiclaCisneros-Orbezo\obj\Debug\TpCuatrimestral-LiclaCisneros-Orbezo.csproj.AssemblyReference.cache
 C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\TpCuatrimestral\TpCuatrimestral-LiclaCisneros-Orbezo\TpCuatrimestral-LiclaCisneros-Orbezo\obj\Debug\TpCuatrimestral-LiclaCisneros-Orbezo.csproj.CoreCompileInputs.cache
-C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\TpCuatrimestral\TpCuatrimestral-LiclaCisneros-Orbezo\TpCuatrimestral-LiclaCisneros-Orbezo\obj\Debug\TpCuatrimestral-LiclaCisneros-Orbezo.csproj.CopyComplete
 C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\TpCuatrimestral\TpCuatrimestral-LiclaCisneros-Orbezo\TpCuatrimestral-LiclaCisneros-Orbezo\obj\Debug\TpCuatrimestral-LiclaCisneros-Orbezo.dll
 C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\TpCuatrimestral\TpCuatrimestral-LiclaCisneros-Orbezo\TpCuatrimestral-LiclaCisneros-Orbezo\obj\Debug\TpCuatrimestral-LiclaCisneros-Orbezo.pdb
 C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\TpCuatrimestral\TpCuatrimestral-LiclaCisneros-Orbezo\TpCuatrimestral-LiclaCisneros-Orbezo\bin\Dominio.dll
