@@ -2,11 +2,12 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="estilos/login.css" rel="stylesheet" />
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="container justify-content-center">
-        <div class="row justify-content-center align-self-center">
-            <div class="col-6">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-4">
                 <form id="formulario" class="formulario  mt-5" onsubmit="enviarForm">
                     <h1>Registrarte</h1>
                     <p>Es rápido y fácil</p>
@@ -131,7 +132,16 @@
                     </div>
                     <!--<button type="submit"><b>Registrarte</b></button>-->
                 </form>
+                <form  class="form-usuario" action="" autocomplete="off">
+                    <label><b>Usuario</b></label>
+                    <input type="text" placeholder="correo electrónico" id="usuario">
+                    <label><b>Contraseña</b></label>
+                    <input type="password" placeholder="******" id="contraseña">
+                    <button type="button" onclick="ingresarData()">INGRESAR</button>
+                    <span id="error" class="error"></span>
+                </form>
             </div>
         </div>
     </div>
+    <script src="funciones/login.js"></script>
 </asp:Content>
