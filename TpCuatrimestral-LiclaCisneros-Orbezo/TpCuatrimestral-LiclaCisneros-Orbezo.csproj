@@ -73,6 +73,7 @@
     <Content Include="estilos\estilos.css" />
     <Content Include="estilos\login.css" />
     <Content Include="funciones\funciones.js" />
+    <Content Include="funciones\login.js" />
     <Content Include="Login.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
