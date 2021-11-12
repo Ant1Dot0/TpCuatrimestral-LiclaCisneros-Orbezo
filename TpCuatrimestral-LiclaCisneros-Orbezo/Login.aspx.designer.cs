@@ -11,7 +11,7 @@ namespace TpCuatrimestral_LiclaCisneros_Orbezo
 {
 
 
-    public partial class Default
+    public partial class Login
     {
     }
 }

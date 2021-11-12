@@ -1,0 +1,121 @@
+﻿/*FORM DE USUARIO*/
+.form-usuario {
+    height: 180px;
+    background-color: antiquewhite;
+    border: 2px solid rgb(1, 46, 18);
+    border-radius: 8px;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+    .form-usuario > input {
+        border-radius: 5px;
+    }
+
+    .form-usuario > span {
+        margin-top: 5px;
+        height: 10px;
+    }
+
+.form-usuario button {
+    margin-top: 15px;
+    background-color: green;
+    color: honeydew;
+}
+
+/*FORM DE REGISTRO DE NUEVO USUARIO*/
+.formulario {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 8px 8px;
+    border-radius: 10px;
+    background-color: rgb(150, 215, 218);
+}
+
+    .formulario h1 {
+        margin: 5px;
+    }
+
+.Nombre,
+.Apellido,
+.Correo,
+.Password,
+.Telefono {
+    height: 20px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    background-color: rgba(172, 172, 172, 0.993);
+    border-radius: 4px;
+    border: 2px solid transparent;
+}
+
+    .Nombre:focus,
+    .Apellido:focus,
+    .Correo:focus,
+    .Password:focus {
+        /*
+  border: 2px solid blue;*/
+    }
+
+.formulario select {
+    width: 32.5%;
+    height: 27px;
+}
+
+.formulario p {
+    margin: 5px;
+    text-align: justify;
+    font-size: 12px;
+}
+
+.formulario label {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.formulario span {
+    display: flex;
+    justify-content: space-around;
+}
+
+.formulario div {
+    display: flex;
+    justify-content: center;
+}
+
+.formulario button {
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(0, 128, 0, 0.849);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.1s ease all;
+}
+
+    button:hover {
+        box-shadow: 1px 0px 7px rgba(163, 163, 163, 1);
+    }
+
+/*  CLASES PARA AGREGAR Y REMOVER EN INPUT*/
+.Incorrection {
+    border: 2px solid red;
+}
+
+.Correction {
+    border: 2px solid green;
+    background-color: white;
+}
+
+/*  CLASES PARA AGREGAR Y REMOVER EN BUTTON*/
+
+.buttonIincorrecto {
+    background-color: red;
+    color: white;
+}

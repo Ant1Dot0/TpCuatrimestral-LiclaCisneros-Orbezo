@@ -1,0 +1,58 @@
+﻿.fila {
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.imagen {
+    /*width: 50%;*/
+    height: 500px;
+    border: 1px solid black;
+    /*margin-right: 50px;*/
+    margin-top: 40px;
+}
+
+.detalle {
+    /*width: 40%;*/
+    height: 500px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.detalle h3 {
+    text-align:justify;
+    padding:10px;
+}
+
+.detalle .precio {
+    font-size:50px;
+}
+
+.cantidad select {
+    width:80px;
+    text-align:center;
+}
+
+.agregar {
+    width:97%;
+    height:50px;
+    margin-bottom:10px;
+    border-radius:5px;
+    background-color:mediumblue;
+    color:white;
+    font-weight:600;
+}
+
+.comprar {
+    width:97%;
+    height:50px;
+    border-radius:5px;
+    background-color:cornflowerblue;
+    color:white;
+    font-weight:600;
+}
+
