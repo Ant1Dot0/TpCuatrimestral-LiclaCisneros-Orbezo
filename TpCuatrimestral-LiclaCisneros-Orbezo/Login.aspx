@@ -8,6 +8,14 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-4">
+                <form id="formUsuario" class="form-usuario" action="" autocomplete="off">
+                    <label><b>Usuario</b></label>
+                    <input type="text" placeholder="correo electrónico" id="usuario">
+                    <label><b>Contraseña</b></label>
+                    <input type="password" placeholder="******" id="contraseña">
+                    <button type="button" onclick="ingresarData()">INGRESAR</button>
+                    <span id="error" class="error" onclick="ocultar('formulario','formUsuario')"><a href="#">Registrarse</a></span>                    
+                </form>
                 <form id="formulario" class="formulario  mt-5" onsubmit="enviarForm">
                     <h1>Registrarte</h1>
                     <p>Es rápido y fácil</p>
@@ -131,15 +139,8 @@
                         <button id="botonEnviar" type="submit"><b>Registrarte</b></button>
                     </div>
                     <!--<button type="submit"><b>Registrarte</b></button>-->
-                </form>
-                <form  class="form-usuario" action="" autocomplete="off">
-                    <label><b>Usuario</b></label>
-                    <input type="text" placeholder="correo electrónico" id="usuario">
-                    <label><b>Contraseña</b></label>
-                    <input type="password" placeholder="******" id="contraseña">
-                    <button type="button" onclick="ingresarData()">INGRESAR</button>
-                    <span id="error" class="error"></span>
-                </form>
+                    <span id="error2" class="error2" onclick="ocultar('formUsuario','formulario')"><a href="#">Ya estoy registrado</a></span>
+                </form>                
             </div>
         </div>
     </div>
