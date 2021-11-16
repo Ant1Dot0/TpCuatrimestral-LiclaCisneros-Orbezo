@@ -1,23 +1,29 @@
 ﻿/*FORM DE USUARIO*/
 .form-usuario {
-    height: 180px;
-    background-color: antiquewhite;
+    width:auto;
+    height: auto;
     border: 2px solid rgb(1, 46, 18);
     border-radius: 8px;
     padding: 20px 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
 
     .form-usuario > input {
         border-radius: 5px;
+        width:100%;
     }
 
     .form-usuario > span {
         margin-top: 5px;
         height: 10px;
+        display:block;
+        text-align:center;
     }
 
 .form-usuario button {
@@ -35,6 +41,7 @@
     padding: 8px 8px;
     border-radius: 10px;
     background-color: rgb(150, 215, 218);
+    display: none;
 }
 
     .formulario h1 {
@@ -46,6 +53,7 @@
 .Correo,
 .Password,
 .Telefono {
+    width:100%;
     height: 20px;
     margin-top: 4px;
     margin-bottom: 4px;
@@ -79,6 +87,7 @@
 }
 
 .formulario span {
+
     display: flex;
     justify-content: space-around;
 }
