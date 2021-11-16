@@ -6,11 +6,11 @@
      <div class="container">
         <div class="row fila">
             <div class="imagen col-lg-6 col-md-10">
-                <img src="https://http2.mlstatic.com/D_NQ_NP_954583-MLA31512056604_072019-W.webp" alt="Imagen" width="100%" height="100%"/>
+                <img src="<%=articulo.Url%>" alt="Imagen" width="100%" height="100%"/>
             </div>
             <div class="detalle col-lg-5 col-md-10">
-                <h3>Pc Armada Gamer Amd A6-7480 3.8ghz Ssd 240g 4gb Win 10 64</h3>
-                <p class="precio">$ 38.999</p>
+                <h3><%=articulo.nombre%> - <%=articulo.descripcion%></h3>
+                <p class="precio">$<%=articulo.precio %></p>
                 <h4>Stock Disponible</h4>
                 <p class="unidades">10 Unidades</p>
                 <p class="cantidad">Cantidad: <select>
