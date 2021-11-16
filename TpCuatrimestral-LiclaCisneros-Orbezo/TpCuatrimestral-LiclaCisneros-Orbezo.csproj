@@ -67,10 +67,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="caja.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Detalle.aspx" />
     <Content Include="estilos\detalle.css" />
-    <Content Include="estilos\estilos.css" />
+    <Content Include="estilos\master1.css" />
     <Content Include="estilos\login.css" />
     <Content Include="funciones\funciones.js" />
     <Content Include="funciones\login.js" />
@@ -78,6 +79,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="caja.aspx.cs">
+      <DependentUpon>caja.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="caja.aspx.designer.cs">
+      <DependentUpon>caja.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

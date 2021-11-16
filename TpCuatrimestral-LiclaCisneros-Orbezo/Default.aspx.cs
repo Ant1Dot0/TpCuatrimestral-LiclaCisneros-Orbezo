@@ -12,10 +12,34 @@ namespace TpCuatrimestral_LiclaCisneros_Orbezo
     public partial class Default : System.Web.UI.Page
     {
         public List<Articulo> ListaArticulos { get; set; }
+        public List<Articulo> carrito { get; set; }
+        public Articulo articuloAgregado { get; set; }
         protected void Page_Load(object sender, EventArgs e)
         {
             ArticuloNegocio reg = new ArticuloNegocio();
             ListaArticulos = reg.listar();
+            carrito = (List<Articulo>)Session["carritoCompra"];
+
+            if (carrito == null)
+            {
+                carrito = new List<Articulo>();
+                articuloAgregado = new Articulo();
+            }
+
+            agregarAlCarrito();
         }
+
+        private void agregarAlCarrito()
+        {
+            int cont;
+            if (Request.QueryString["contador"] != null)
+            {
+                cont = int.Parse(Request.QueryString["contador"].ToString());
+                carrito.Add(ListaArticulos[cont]);
+                Session.Add("carritoCompra", carrito);
+                Response.Redirect("Default.aspx");
+            }
+        }
+
     }
 }

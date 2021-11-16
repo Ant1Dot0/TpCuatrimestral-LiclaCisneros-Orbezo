@@ -118,3 +118,7 @@ C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\TpCuatrimestral\TpCuatrimestral-LiclaCis
 C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\TpCuatrimestral\TpCuatrimestral-LiclaCisneros-Orbezo\TpCuatrimestral-LiclaCisneros-Orbezo\bin\Negocio.dll
 C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\TpCuatrimestral\TpCuatrimestral-LiclaCisneros-Orbezo\TpCuatrimestral-LiclaCisneros-Orbezo\bin\Dominio.pdb
 C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\TpCuatrimestral\TpCuatrimestral-LiclaCisneros-Orbezo\TpCuatrimestral-LiclaCisneros-Orbezo\bin\Negocio.pdb
+C:\Users\JoseEdu\Desktop\proyecto\TpCuatrimestral-LiclaCisneros-Orbezo\TpCuatrimestral-LiclaCisneros-Orbezo\bin\Dominio.dll
+C:\Users\JoseEdu\Desktop\proyecto\TpCuatrimestral-LiclaCisneros-Orbezo\TpCuatrimestral-LiclaCisneros-Orbezo\bin\Negocio.dll
+C:\Users\JoseEdu\Desktop\proyecto\TpCuatrimestral-LiclaCisneros-Orbezo\TpCuatrimestral-LiclaCisneros-Orbezo\bin\Dominio.pdb
+C:\Users\JoseEdu\Desktop\proyecto\TpCuatrimestral-LiclaCisneros-Orbezo\TpCuatrimestral-LiclaCisneros-Orbezo\bin\Negocio.pdb
