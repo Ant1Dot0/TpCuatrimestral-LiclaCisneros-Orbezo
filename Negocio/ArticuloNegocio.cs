@@ -12,48 +12,23 @@ namespace Negocio
     {
         public List<Articulo> listar()
         {
-            List<Articulo> lista = new List<Articulo>();
-            SqlConnection conexion = new SqlConnection();
-            SqlCommand comando = new SqlCommand();
-            SqlDataReader lector;
-            try
+            List<Articulo> aux = new List<Articulo>();
+            AccesoDatos dato = new AccesoDatos();
+            dato.setearConsulta("SELECT ARTICULOS.ID_ART,ARTICULOS.CODIGO_ART,ARTICULOS.NOMBRE_ART,ARTICULOS.DESCRIPCION_ART,IMAGEN_ART,ARTICULOS.PRECIO_ART FROM ARTICULOS");
+            dato.ejecutarLectura();
+            while (dato.Lector.Read())
             {
-                conexion.ConnectionString = "server=.\\SQLEXPRESS; database=CATALOGO_DB; integrated security=true";
-                comando.CommandType = System.Data.CommandType.Text;
-                comando.CommandText = "SELECT Articulos.Id, Codigo, Nombre, ARTICULOS.Descripcion, MARCAS.Descripcion Marca, CATEGORIAS.Descripcion Categoria,ImagenUrl, Precio FROM ARTICULOS INNER JOIN MARCAS ON ARTICULOS.IdMarca = MARCAS.Id INNER JOIN CATEGORIAS ON ARTICULOS.IdCategoria = CATEGORIAS.Id";
-                comando.Connection = conexion;
-                conexion.Open();
-                lector = comando.ExecuteReader();
-
-                while (lector.Read())
-                {
-                    Articulo aux = new Articulo();
-                    aux.id = (int)lector["Id"];
-                    aux.codigo = (string)lector["Codigo"];
-                    aux.nombre = (string)lector["Nombre"];
-                    aux.descripcion = (string)lector["Descripcion"];
-                    //aux.marca = (int)lector["IdMarca"];
-                    //aux.descripcionMarca = (string)lector["Marca"];
-                    aux.marca = new Marca();
-                    aux.marca.descripcion = (string)lector["Marca"];
-
-                    //aux.categoria = (int)lector["IdCategoria"];
-                    //aux.descripcionCategoria = (string)lector["Categoria"];
-                    aux.categoria = new Categoria();
-                    aux.categoria.descripcion = (string)lector["Categoria"];
-
-                    aux.Url = (string)lector["imagenUrl"];
-                    aux.precio = (decimal)lector["Precio"];
-                    lista.Add(aux);
-                }
-                conexion.Close();
-                return lista;
+                Articulo nuevo = new Articulo();
+                nuevo.id = (int)dato.Lector["ID_ART"];
+                nuevo.codigo = (string)dato.Lector["CODIGO_ART"];
+                nuevo.nombre = (string)dato.Lector["NOMBRE_ART"];
+                nuevo.descripcion = (string)dato.Lector["DESCRIPCION_ART"];
+                nuevo.Url = (string)dato.Lector["IMAGEN_ART"];
+                nuevo.precio = (decimal)dato.Lector["PRECIO_ART"];
+                aux.Add(nuevo);
             }
-            catch (Exception ex)
-            {
-
-                throw ex;
-            }
+            dato.cerrarConexion();
+            return aux;
 
         }          
     }
