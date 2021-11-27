@@ -18,16 +18,9 @@ namespace Dominio
         //public string descripcionCategoria { get; set; }
         public string Url { get; set; }
         public decimal precio { get; set; }
-
-        public override string ToString()
-        {
-            return "id: " + id +
-                    "\r\ncodigo:  " + codigo +
-                    "\r\nnombre:  " + nombre +
-                    "\r\ndescripcion:  " + descripcion +
-                    "\r\nmarca:  " + marca +
-                    "\r\ncategoria:  " + categoria +
-                    "\r\nPrecio:  $" + precio;
-        }
+        public int stock { get; set; }
+        public int limiteStock { get; set; }
+        public string urlImagen { get; set; }
+        public bool activo { get; set; }
     }
 }

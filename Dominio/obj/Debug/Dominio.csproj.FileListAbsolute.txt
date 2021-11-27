@@ -4,3 +4,9 @@ C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\TpCuatrimestral\TpCuatrimestral-LiclaCis
 C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\TpCuatrimestral\TpCuatrimestral-LiclaCisneros-Orbezo\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
 C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\TpCuatrimestral\TpCuatrimestral-LiclaCisneros-Orbezo\Dominio\obj\Debug\Dominio.dll
 C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\TpCuatrimestral\TpCuatrimestral-LiclaCisneros-Orbezo\Dominio\obj\Debug\Dominio.pdb
+C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\TpFinal\TpCuatrimestral-LiclaCisneros-Orbezo\Dominio\bin\Debug\Dominio.dll
+C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\TpFinal\TpCuatrimestral-LiclaCisneros-Orbezo\Dominio\bin\Debug\Dominio.pdb
+C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\TpFinal\TpCuatrimestral-LiclaCisneros-Orbezo\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\TpFinal\TpCuatrimestral-LiclaCisneros-Orbezo\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\TpFinal\TpCuatrimestral-LiclaCisneros-Orbezo\Dominio\obj\Debug\Dominio.dll
+C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\TpFinal\TpCuatrimestral-LiclaCisneros-Orbezo\Dominio\obj\Debug\Dominio.pdb
