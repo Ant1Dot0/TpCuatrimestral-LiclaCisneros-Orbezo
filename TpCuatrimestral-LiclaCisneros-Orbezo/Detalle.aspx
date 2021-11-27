@@ -21,8 +21,9 @@
                                 <option>6</option>
                             </select>
                 </p><br /><br />
-                <asp:Button CssClass="agregar" Text="Agregar al carrito" runat="server" />
-                <asp:Button CssClass="comprar" Text="Comprar Ahora" runat="server"/>
+   
+                <asp:Button CssClass="agregar" Text="Agregar al carrito" runat="server" ID="btnAgregar" OnClick="btnAgregar_Click" />
+                <asp:Button CssClass="comprar" Text="Comprar Ahora" runat="server" ID="Comprar" OnClick="Comprar_Click"/>
             </div>
         </div>
     </div>

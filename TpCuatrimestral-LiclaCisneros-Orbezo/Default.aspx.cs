@@ -26,19 +26,7 @@ namespace TpCuatrimestral_LiclaCisneros_Orbezo
                 articuloAgregado = new Articulo();
             }
             Session.Add("listaArt", ListaArticulos);
-            agregarAlCarrito();
         }
 
-        private void agregarAlCarrito()
-        {
-            int cont;
-            if (Request.QueryString["contador"] != null)
-            {
-                cont = int.Parse(Request.QueryString["contador"].ToString());
-                carrito.Add(ListaArticulos[cont]);
-                Session.Add("carritoCompra", carrito);
-                Response.Redirect("Default.aspx");
-            }
-        }
     }
 }
