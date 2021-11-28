@@ -13,13 +13,7 @@
                 <p class="precio">$<%=articulo.precio %></p>
                 <h4>Stock Disponible</h4>
                 <p class="unidades">10 Unidades</p>
-                <p class="cantidad">Cantidad: <select>
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>5</option>
-                                <option>6</option>
-                            </select>
+                <p class="cantidad">Cantidad: <p class="cantidad"><asp:TextBox ID="txtCantidad" runat="server" Width="55px" type="number" min="1" max="99" Text="1"></asp:TextBox>
                 </p><br /><br />
    
                 <asp:Button CssClass="agregar" Text="Agregar al carrito" runat="server" ID="btnAgregar" OnClick="btnAgregar_Click" />

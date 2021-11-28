@@ -33,10 +33,25 @@ namespace TpCuatrimestral_LiclaCisneros_Orbezo
         void agregarAlCarrito()
         {
             int cont;
+            bool nuevo = true;
+            Articulo aux = articulo;
             if (Request.QueryString["contador"] != null)
             {
                 cont = int.Parse(Request.QueryString["contador"].ToString());
-                carrito.Add(ListaArticulos[cont]);
+                for(int i =0; i < carrito.Count; i++)
+                {
+                    if (carrito[i].id == ListaArticulos[cont].id)
+                    {
+                        carrito[i].stock += int.Parse(txtCantidad.Text);
+                        nuevo = false;
+                    }
+                }
+
+                if(nuevo)
+                {
+                    aux.stock = 1;
+                    carrito.Add(aux);
+                }
                 Session.Add("carritoCompra", carrito);
             }
         }

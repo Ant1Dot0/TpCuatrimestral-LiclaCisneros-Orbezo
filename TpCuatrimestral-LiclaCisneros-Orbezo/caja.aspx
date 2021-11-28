@@ -16,17 +16,19 @@
                                         <th>Codigo</th>
                                         <th>Nombre</th>
                                         <th>Precio</th>
-                                        <th>acciones</th>
+                                        <th>Cantidad</th>
+                                        <th>Acciones</th>
                                     </tr>
                                 </thead>
                                 <tbody>
 
-                                    <%int count = 0; foreach (var arti in listaArticulos)
+                                    <%int count = 0; foreach (var arti in carrito)
                                         {  %>
                                     <tr>
                                         <td><%=arti.codigo%></td>
                                         <td><%=arti.nombre%></td>
                                         <td><%=arti.precio%></td>
+                                        <td style="text-align: left"><%=arti.stock %></td>
                                         <td>
                                             <a href="Caja.aspx?contador=<%=count%>" title="Quitar item de la lista" class="btn btn-secondary" onclick='agregarAlertaSub()'><i class="fa-solid fa-minus"></i></a>
                                         </td>

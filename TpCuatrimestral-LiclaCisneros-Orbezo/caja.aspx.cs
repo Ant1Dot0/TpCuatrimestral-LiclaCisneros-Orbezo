@@ -11,14 +11,14 @@ namespace TpCuatrimestral_LiclaCisneros_Orbezo
 {
     public partial class caja : System.Web.UI.Page
     {
-        public List<Articulo> listaArticulos { get; set; }
+        public List<Detalle> detalleVenta { get; set; }
         public List<Articulo> carrito { get; set; }
         public decimal totalPagar { get; set; }
         protected void Page_Load(object sender, EventArgs e)
         {
             ArticuloNegocio nuevo = new ArticuloNegocio();
 
-            listaArticulos = new List<Articulo>();
+            detalleVenta = new List<Detalle>();
             carrito = (List<Articulo>)Session["carritoCompra"];
 
             if (carrito == null)
@@ -27,7 +27,9 @@ namespace TpCuatrimestral_LiclaCisneros_Orbezo
             }
             Session.Add("carritoCompra", carrito);
 
-            listaArticulos = carrito;
+            if (carrito.Count == 0)
+                Response.Redirect("carroVacio.aspx", false);
+                
             sumaTotal();
             quitarArticulo();
         }

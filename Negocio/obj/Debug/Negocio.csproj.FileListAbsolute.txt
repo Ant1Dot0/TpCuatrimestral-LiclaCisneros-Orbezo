@@ -16,3 +16,11 @@ C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\TpFinal\TpCuatrimestral-LiclaCisneros-Or
 C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\TpFinal\TpCuatrimestral-LiclaCisneros-Orbezo\Negocio\obj\Debug\Negocio.csproj.CopyComplete
 C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\TpFinal\TpCuatrimestral-LiclaCisneros-Orbezo\Negocio\obj\Debug\Negocio.dll
 C:\Users\user\Dropbox\UTN-FRGP\PROGRAM3\TpFinal\TpCuatrimestral-LiclaCisneros-Orbezo\Negocio\obj\Debug\Negocio.pdb
+C:\Users\JoseEdu\Desktop\proyecto\TpCuatrimestral-LiclaCisneros-Orbezo\Negocio\bin\Debug\Negocio.dll
+C:\Users\JoseEdu\Desktop\proyecto\TpCuatrimestral-LiclaCisneros-Orbezo\Negocio\bin\Debug\Negocio.pdb
+C:\Users\JoseEdu\Desktop\proyecto\TpCuatrimestral-LiclaCisneros-Orbezo\Negocio\bin\Debug\Dominio.dll
+C:\Users\JoseEdu\Desktop\proyecto\TpCuatrimestral-LiclaCisneros-Orbezo\Negocio\bin\Debug\Dominio.pdb
+C:\Users\JoseEdu\Desktop\proyecto\TpCuatrimestral-LiclaCisneros-Orbezo\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\JoseEdu\Desktop\proyecto\TpCuatrimestral-LiclaCisneros-Orbezo\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\JoseEdu\Desktop\proyecto\TpCuatrimestral-LiclaCisneros-Orbezo\Negocio\obj\Debug\Negocio.dll
+C:\Users\JoseEdu\Desktop\proyecto\TpCuatrimestral-LiclaCisneros-Orbezo\Negocio\obj\Debug\Negocio.pdb
